@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Apple Mac Product Card</title>
+
+
+<link href="https://share.google/SQPAxPiHqaLruJfDy" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Arial', sans-serif;
+}
+
+body{
+    background:#f05bb4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.product-card{
+    width:320px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    text-align:center;
+    overflow:hidden;
+    transition:0.3s ease;
+}
+
+.product-card:hover{
+    transform:scale(1.05);
+}
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.info{
+    padding:20px;
+}
+
+.info h2{
+    color:#333;
+    margin-bottom:10px;
+}
+
+.price{
+    color:#0071e3;
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.description{
+    color:#555;
+    font-size:15px;
+    margin-bottom:20px;
+}
+
+.buy-btn{
+    background:#0071e3;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.buy-btn:hover{
+    background:#58dbf0;
+}
+</style>
+
+</head>
+<body>
+
+<div class="product-card">
+    <img src="apple.jpg" alt="Apple Mac">
+
+    <div class="info">
+        <h2>Apple Mac</h2>
+        <p class="price">₱89,990</p>
+        <p class="description">
+            A powerful Apple Mac laptop with a sleek design, fast performance, and long-lasting battery life.
+        </p>
+        <button class="buy-btn">Buy Now</button>
+    </div>
+</div>
+
+</body>
+</html>
